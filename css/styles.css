@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 90%
+}
+
+/* Header */
+
+a {
+    color: darkred;
+}
+
+header {
+    color: whitesmoke;
+    background-color: rgb(47, 53, 107);
+
+    padding: 1rem;
+
+}
+
+
+/* caracteristicas lista de navegación */
+.nav-lista {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.nav-lista a {
+    color: whitesmoke;
+}
+
+
+/* Servicios o productos */
+.caja {
+    background-color: darkolivegreen;
+    color: whites;
+
+                .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container a {
+            margin-right: 10px;
+        }
+
+
+        .caja-2 {
+            background-color: green;
+            width: 150px;
+            display: inline-block;
+        }
+
+        .caja-span {
+            background-color: coral;
+
+            width: 200px;
+            height: 200px;
+
+            padding: 40px;
+            margin: 50px;
+
+            display: inline-block;
+        }
+
+        /* ==== Productos Index ==== */
+
+        .tarjeta {
+            /* border: 2px solid red; */
+            border-radius: 1rem;
+
+            overflow: hidden;
+
+            width: 250px;
+            height: 300px;
+
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+
+        }
+
+        .tarjeta-body {
+            flex-grow: 1;
+
+            background-color: rgb(229, 223, 223);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .btn {
+            border: 2px solid tomato;
+            background-color: tomato;
+            color: white;
+            padding: 0.5rem 1rem;
+            font-size: 1.1rem;
+            border-radius: 1rem;
+        }
+
+        /* Tarjetas */
+        .tarjeta {
+            border: 2px rgb(34, 44, 44);
+
+            margin: 1px;
+            border-radius: 1rem;
+            overflow: hidden;
+            width: 150px;
+            height: 150px;
+            /* cambie flex por inline */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tarjeta img {
+            flex-grow: 1;
+            align-items: center;
+        }
+
+        .cuerpo-tarjeta {
+            flex-grow: 1;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        /* boton tarjeta */
+        .boton {
+            border: 2px;
+            color: darkblue;
+            background-color: blue;
+            color: aliceblue;
+            padding: 0.5rem 1rem;
+            font-size: 1. 1rem;
+            border-radius: 1rem;
+
+        }
