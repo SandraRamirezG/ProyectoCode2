@@ -44,108 +44,118 @@ header {
 .caja {
     background-color: darkolivegreen;
     color: whites;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    min-width: 480px;
+    min-height: 30px;
 
-                .container {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .container a {
-            margin-right: 10px;
-        }
+}
 
 
-        .caja-2 {
-            background-color: green;
-            width: 150px;
-            display: inline-block;
-        }
+.container {
+    display: flex;
+    flex-direction: row;
+}
 
-        .caja-span {
-            background-color: coral;
+.container a {
+    margin-right: 10px;
+}
 
-            width: 200px;
-            height: 200px;
 
-            padding: 40px;
-            margin: 50px;
+.caja-2 {
+    background-color: green;
+    width: 150px;
+    display: inline-block;
+}
 
-            display: inline-block;
-        }
+.caja-span {
+    background-color: coral;
 
-        /* ==== Productos Index ==== */
+    width: 200px;
+    height: 200px;
 
-        .tarjeta {
-            /* border: 2px solid red; */
-            border-radius: 1rem;
+    padding: 40px;
+    margin: 50px;
 
-            overflow: hidden;
+    display: inline-block;
+}
 
-            width: 250px;
-            height: 300px;
+/* ==== Productos Index ==== */
 
-            display: flex;
-            flex-direction: column;
-            padding: 20px;
 
-        }
 
-        .tarjeta-body {
-            flex-grow: 1;
 
-            background-color: rgb(229, 223, 223);
+.tarjeta {
+    /* border: 2px solid red; */
+    border-radius: 1rem;
 
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-        }
+    overflow: hidden;
 
-        .btn {
-            border: 2px solid tomato;
-            background-color: tomato;
-            color: white;
-            padding: 0.5rem 1rem;
-            font-size: 1.1rem;
-            border-radius: 1rem;
-        }
+    width: 250px;
+    height: 300px;
 
-        /* Tarjetas */
-        .tarjeta {
-            border: 2px rgb(34, 44, 44);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 
-            margin: 1px;
-            border-radius: 1rem;
-            overflow: hidden;
-            width: 150px;
-            height: 150px;
-            /* cambie flex por inline */
-            display: flex;
-            flex-direction: column;
-        }
+}
 
-        .tarjeta img {
-            flex-grow: 1;
-            align-items: center;
-        }
+.tarjeta-body {
+    flex-grow: 1;
 
-        .cuerpo-tarjeta {
-            flex-grow: 1;
+    background-color: rgb(229, 223, 223);
 
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-        }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
-        /* boton tarjeta */
-        .boton {
-            border: 2px;
-            color: darkblue;
-            background-color: blue;
-            color: aliceblue;
-            padding: 0.5rem 1rem;
-            font-size: 1. 1rem;
-            border-radius: 1rem;
+.btn {
+    border: 2px solid tomato;
+    background-color: tomato;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+}
 
-        }
+/* Tarjetas */
+.tarjeta {
+    border: 2px rgb(34, 44, 44);
+
+    margin: 1px;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    /* cambie flex por inline */
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta img {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.cuerpo-tarjeta {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* boton tarjeta */
+.boton {
+    border: 2px;
+    color: darkblue;
+    background-color: blue;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    font-size: 1. 1rem;
+    border-radius: 1rem;
+
+}
