@@ -1,6 +1,6 @@
 * {
     margin: 0;
-  ;
+    ;
     box-sizing: border-box;
 }
 
@@ -106,28 +106,32 @@ header {
     font-size: 1. 1rem;
     border-radius: 1rem;
 }
-.Info-contacto{
+
+.Info-contacto {
     background-color: aquamarine;
     flex-grow: 1;
-    padding: auto;
     margin: auto;
     border: 2px;
     justify-content: space-between;
-    
 }
+/* Redes sociales */
 .Redes-Sociales{
-    background-color: lightslategray;
-    display: grid;
-  grid-column: span 2;
-    
-    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aqua;
+    padding: 20px;
+    border: 5px;
+    margin: 5px;
 }
-.grilla{
-    background-color: lightslategray;
+
+.grilla {
+    
     display: grid;
- column-gap: 1em;
- row-gap: 2em;
-    grid-column: span 2;
-    gap: 0.5em 1em;
-    grid-template-columns: 1fr 1fr 1fr;
+    border: darkblue solid 2px;
+    
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-rows: 3fr 3fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 5px;
+        column-gap: 5px;
+
 }
