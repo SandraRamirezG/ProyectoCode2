@@ -13,24 +13,26 @@ img {
     max-width: 80%
 }
 
-/* Header */
+
 
 a {
     color: darkred;
 }
 
+/* Header */
 header {
     color: whitesmoke;
     background-color: rgb(47, 53, 107);
-
     padding: 1rem;
+
+
 
 }
 
 /* caracteristicas lista de navegación */
 .nav-lista {
     display: flex;
-    gap: 1rem;
+    padding: 1rem;
     justify-content: space-between;
 }
 
@@ -38,7 +40,15 @@ header {
 
     color: whitesmoke;
 }
+/* caracteristicas responsive */
 
+@media(min-width: 768px) and (orientation: landscape){
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+
+}
 
 /* Servicios o productos */
 .caja {
@@ -114,8 +124,9 @@ header {
     border: 2px;
     justify-content: space-between;
 }
+
 /* Redes sociales */
-.Redes-Sociales{
+.Redes-Sociales {
     background-color: aqua;
     padding: 20px;
     border: 5px;
@@ -123,15 +134,28 @@ header {
 }
 
 .grilla {
-    
+
     display: grid;
     border: darkblue solid 2px;
-    
-        grid-template-columns: 2fr 2fr 2fr;
-        grid-template-rows: 3fr 3fr;
-        justify-items: center;
-        align-items: center;
-        row-gap: 5px;
-        column-gap: 5px;
 
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 4fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 5px;
+    column-gap: 5px;
+
+}
+
+.imagen-redes {
+    justify-items: center;
+    grid-column: span 3;
+}
+
+
+@media (min-width: 768px) and (orientation: landscape) {
+}
+
+footer {
+    grid-column: span 3;
 }
