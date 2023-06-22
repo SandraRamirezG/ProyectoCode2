@@ -29,6 +29,8 @@ header {
 
 }
 
+
+
 /* caracteristicas lista de navegación */
 .nav-lista {
     display: flex;
@@ -40,17 +42,18 @@ header {
 
     color: whitesmoke;
 }
+
 /* caracteristicas responsive */
 
-@media(min-width: 768px) and (orientation: landscape){
-}
+@media(min-width: 768px) and (orientation: landscape) {}
+
 header {
     display: grid;
     grid-template-columns: repeat(2 1fr);
 
 }
 
-/* Servicios o productos */
+/* Titulos por pagina */
 .caja {
     background-color: darkolivegreen;
     color: whites;
@@ -58,14 +61,11 @@ header {
     margin-bottom: 2px;
     min-width: 480px;
     min-height: 30px;
+    text-align: center;
 
 }
 
-
-
 /* ==== Productos Index ==== */
-
-
 
 /* Tarjetas */
 .productos-index {
@@ -74,19 +74,20 @@ header {
     height: 50vh;
     display: flex;
     justify-content: space-between;
+
 }
 
+/* agregar font size para pages 1, 2, 3 y 4 */
 
 .tarjeta1 {
     border: 2px solid rgb(24, 29, 29);
-
+    padding: 0.5rem 0;
     border-radius: 25% 10%;
 
     margin: 1px;
     overflow: hidden;
     width: 150px;
     height: 150px;
-    /* cambie flex por inline */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -99,11 +100,12 @@ header {
 
 .cuerpo-tarjeta {
     flex-grow: 1;
-
+    padding: 0.5rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: start;
 }
 
 /* boton tarjeta */
@@ -115,6 +117,28 @@ header {
     padding: 0.5rem 1rem;
     font-size: 1. 1rem;
     border-radius: 1rem;
+}
+
+/* pages */
+.Info_pages {
+    flex-grow: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+
+}
+
+.Cuerpo_pages {
+    flex-grow: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
 }
 
 .Info-contacto {
@@ -152,10 +176,10 @@ header {
     grid-column: span 3;
 }
 
-
-@media (min-width: 768px) and (orientation: landscape) {
-}
+/* Ajuste responsive */
+@media (min-width: 768px) and (orientation: landscape) {}
 
 footer {
     grid-column: span 3;
+    grid-column: center;
 }
