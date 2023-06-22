@@ -119,6 +119,15 @@ header {
     border-radius: 1rem;
 }
 
+@media (min-width: 768px) and (orientation: landscape) {
+    .tarjeta1 display: grid;
+    grid-template-columns: ;
+
+.tarjeta{
+    display: block;
+}
+}
+
 /* pages */
 .Info_pages {
     flex-grow: 1;
