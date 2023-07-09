@@ -10,7 +10,7 @@ ol {
 }
 
 img {
-    max-width: 50%
+    max-width: 80%
 }
 
 
@@ -29,12 +29,7 @@ header {
 
 }
 
-/* Prueba menu */
 
-
-
-
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 /* caracteristicas lista de navegación */
 .nav-lista {
@@ -50,13 +45,13 @@ header {
 
 /* caracteristicas responsive */
 
-/* @media(min-width: 768px) and (orientation: landscape) {}
+@media(min-width: 768px) and (orientation: landscape) {}
 
 header {
     display: grid;
     grid-template-columns: repeat(2 1fr);
 
-} */
+}
 
 /* Titulos por pagina */
 .caja {
@@ -64,18 +59,13 @@ header {
     color: whites;
     margin-top: 2px;
     margin-bottom: 2px;
-    /* min-width: 480px;
-    min-height: 30px; */
+    min-width: 480px;
+    min-height: 30px;
     text-align: center;
 
 }
 
 /* ==== Productos Index ==== */
-
-
-.bg-color-grey {
-    background-color: rgb(199, 207, 223);
-}
 
 /* Tarjetas */
 .productos-index {
@@ -83,8 +73,8 @@ header {
     padding: 1rem;
     height: 50vh;
     display: flex;
-    justify-content: space-evenly;
-border-radius: 25%;
+    justify-content: space-between;
+
 }
 
 /* agregar font size para pages 1, 2, 3 y 4 */
@@ -94,13 +84,13 @@ border-radius: 25%;
     padding: 0.5rem 0;
     border-radius: 25% 10%;
 
-    margin: 2px;
+    margin: 1px;
     overflow: hidden;
     width: 150px;
     height: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .tarjeta1 img {
@@ -108,7 +98,15 @@ border-radius: 25%;
     align-items: center;
 }
 
-
+.cuerpo-tarjeta {
+    flex-grow: 1;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+}
 
 /* boton tarjeta */
 .boton {
@@ -121,18 +119,14 @@ border-radius: 25%;
     border-radius: 1rem;
 }
 
-/* @media (min-width: 768px) and (orientation: landscape) {}
+/* @media (min-width: 768px) and (orientation: landscape) {
+    .tarjeta1 display: grid;
+    grid-template-columns: ; */
 
-.tarjeta1 display: grid;
-grid-template-columns: 1
+.tarjeta{
+    display: -ms-flexbox;
 }
-
-
-
-.tarjeta display: block;
-
-    {}
-} */
+}
 
 /* pages */
 .Info_pages {
@@ -146,16 +140,6 @@ grid-template-columns: 1
 
 }
 
-.Cuerpo_pages {
-   margin: 5%;
-    flex-grow: 1;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: start;
-}
 
 .Info-contacto {
     background-color: aquamarine;
@@ -167,7 +151,7 @@ grid-template-columns: 1
 
 /* Redes sociales */
 .Redes-Sociales {
-    background-color: rgb(147, 233, 186);
+    background-color: aqua;
     padding: 20px;
     border: 5px;
     margin: 5px;
