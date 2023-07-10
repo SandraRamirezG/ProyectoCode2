@@ -13,8 +13,6 @@ img {
     max-width: 80%
 }
 
-
-
 a {
     color: darkred;
 }
@@ -25,25 +23,19 @@ header {
     background-color: rgb(47, 53, 107);
     padding: 1rem;
 
-
-
 }
 
-
-
-/* caracteristicas lista de navegación */
 .nav-lista {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
-}
 
 .nav-lista a {
 
     color: whitesmoke;
 }
 
-/* caracteristicas responsive */
+
 
 @media(min-width: 768px) and (orientation: landscape) {}
 
@@ -53,7 +45,7 @@ header {
 
 }
 
-/* Titulos por pagina */
+
 .caja {
     background-color: darkolivegreen;
     color: white;
@@ -65,9 +57,6 @@ header {
 
 }
 
-/* ==== Productos Index ==== */
-
-/* Tarjetas */
 .productos-index {
 
     padding: 1rem;
@@ -77,7 +66,6 @@ header {
 
 }
 
-/* agregar font size para pages 1, 2, 3 y 4 */
 
 .tarjeta1 {
     border: 2px solid rgb(24, 29, 29);
@@ -118,10 +106,6 @@ header {
     font-size: 1. 1rem;
     border-radius: 1rem;
 }
-
-/* @media (min-width: 768px) and (orientation: landscape) {
-    .tarjeta1 display: grid;
-    grid-template-columns: ; */
 
 .tarjeta{
     display: -ms-flexbox;
