@@ -1,0 +1,86 @@
+.section-nosotros {
+    padding: map-get($spacing, small);
+
+    & {
+        font-size: map-get($font-sizes, large);
+
+        .introduccion {
+            padding: map-get($spacing, small) 0;
+            margin-bottom: map-get($spacing, small);
+        }
+
+        .contenido-tarjeta-nosotros {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .tarjeta-nosotros {
+            display: grid;
+            grid-template-columns: 25% 75%;
+
+            .tarjeta-icono-nos {
+                grid-row: span 2;
+                background-color: map-get($color, lightgreen);
+                width: 50%;
+                height: 50%;
+                border-radius: 25%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: map-get($color, darkgreen);
+                font-size: 250%;
+            }
+        }
+
+        .estilo-lista {
+            list-style: square;
+        }
+    }
+}
+
+.bg-color-grey {
+    background-color: rgb(199, 207, 223);
+}
+
+.productos-index {
+    padding: map-get($spacing, small);
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50%;
+
+    .tarjeta1 {
+        border: 2px solid rgb(24, 29, 29);
+        padding: map-get($spacing, small) 0;
+        border-radius: 25% 10%;
+        margin: map-get($spacing, medium);
+        margin-bottom: map-get($spacing, small);
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        img {
+            flex-grow: 1;
+            align-items: center;
+        }
+    }
+
+    .boton {
+        border: 2px;
+        color: map-get($color, darkblue);
+        background-color: map-get($color, blue);
+        padding: map-get($spacing, small) map-get($spacing, medium);
+        font-size: map-get($font-sizes, medium);
+        border-radius: map-get($spacing, large);
+    }
+
+    .btn {
+        background-color: map-get($color, darkblue);
+        color: map-get($color, whitesmoke);
+    }
+}

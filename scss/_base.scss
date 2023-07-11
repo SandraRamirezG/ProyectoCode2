@@ -1,0 +1,103 @@
+$color: (
+    darkred: darkred,
+    whitesmoke: whitesmoke,
+    darkgreen: darkgreen,
+    lightgreen: lightgreen,
+    darkblue: darkblue,
+    aliceblue: aliceblue
+);
+
+$spacing: (
+    small: 5px,
+    medium: 10px,
+    large: 20px
+);
+
+$font-sizes: (
+    small: 12px,
+    medium: 16px,
+    large: 24px
+);
+
+$breakpoints: (
+    small: 480px,
+    medium: 768px,
+    large: 1024px
+);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 50%;
+}
+
+a {
+    color: map-get($color, darkred);
+}
+
+header {
+    color: map-get($color, whitesmoke);
+    background-color: rgb(47, 53, 107);
+    padding: 1rem;
+}
+
+.nav-lista {
+    display: flex;
+    padding: map-get($spacing, medium);
+    justify-content: space-between;
+
+    a {
+        color: map-get($color, whitesmoke);
+    }
+}
+
+.caja {
+    background-color: darkolivegreen;
+    color: white;
+    margin-top: map-get($spacing, small);
+    margin-bottom: map-get($spacing, small);
+    text-align: center;
+}
+
+
+
+
+.Info_pages {
+    flex-grow: 1;
+    padding: map-get($spacing, small);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+}
+
+.Cuerpo_pages {
+    margin: map-get($spacing, large);
+    flex-grow: 1;
+    padding: map-get($spacing, small);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+}
+
+$spacing: (
+    small: 5px,
+    medium: 10px,
+    large: 20px
+);
+
+.nav-lista {
+    display: flex;
+    padding: map-get($spacing, medium);
+    justify-content: space-between;
+
+    a {
+        color: map-get($color, whitesmoke);
+    }
+}
