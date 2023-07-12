@@ -25,20 +25,19 @@
     border: 10px;
     margin: 10px;
     color: darkgreen;
-}
 
-.Redes-Sociales .grilla {
-    display: grid;
-    border: darkgreen 10px;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 4fr;
-    justify-items: center;
-    align-items: center;
-    row-gap: 5px;
-    column-gap: 5px;
-}
+    .grilla {
+        display: grid;
+        border: darkgreen 10px;
+        grid-template-columns: 2fr 2fr 2fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 5px;
+        column-gap: 5px;
 
-.Redes-Sociales .grilla .redes {
-    justify-items: center;
-    grid-column: span 3;
+        .redes {
+            justify-items: center;
+            grid-column: span 3;
+        }
+    }
 }

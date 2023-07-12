@@ -1,71 +1,68 @@
 .section-nosotros {
     padding: 5px;
-}
 
-.section-nosotros {
-    font-size: 24px;
-}
+    .introduccion {
+        padding: 5px 0;
+        margin-bottom: 5px;
+    }
 
-.section-nosotros .introduccion {
-    padding: 5px 0;
-    margin-bottom: 5px;
-}
+    .contenido-tarjeta-nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-.section-nosotros .contenido-tarjeta-nosotros {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+    .tarjeta-nosotros {
+        display: grid;
+        grid-template-columns: 25% 75%;
 
-.section-nosotros .tarjeta-nosotros {
-    display: grid;
-    grid-template-columns: 25% 75%;
-}
+        .tarjeta-icono-nos {
+            grid-row: span 2;
+            background-color: lightgreen;
+            width: 50%;
+            height: 50%;
+            border-radius: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: darkgreen;
+            font-size: 250%;
+        }
+    }
 
-.section-nosotros .tarjeta-nosotros .tarjeta-icono-nos {
-    grid-row: span 2;
-    background-color: lightgreen;
-    width: 50%;
-    height: 50%;
-    border-radius: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: darkgreen;
-    font-size: 250%;
-}
-
-.section-nosotros .estilo-lista {
-    list-style: square;
+    .estilo-lista {
+        list-style: square;
+    }
 }
 
 .bg-color-grey {
     background-color: rgb(199, 207, 223);
-  }
-  
-  .productos-index {
+}
+
+.productos-index {
     padding: 5px;
     height: 50vh;
     display: flex;
     justify-content: space-evenly;
     border-radius: 50%;
-  }
-  .productos-index .tarjeta1 {
-    border: 2px solid rgb(24, 29, 29);
-    padding: 5px 0;
-    border-radius: 25% 10%;
-    margin: 10px;
-    margin-bottom: 5px;
-    overflow: hidden;
-    width: 150px;
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  .productos-index .tarjeta1 img {
-    flex-grow: 1;
-    align-items: center;
-  }
-  
+
+    .tarjeta1 {
+        border: 2px solid rgb(24, 29, 29);
+        padding: 5px 0;
+        border-radius: 25% 10%;
+        margin: 10px;
+        margin-bottom: 5px;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        img {
+            flex-grow: 1;
+            align-items: center;
+        }
+    }
+}
