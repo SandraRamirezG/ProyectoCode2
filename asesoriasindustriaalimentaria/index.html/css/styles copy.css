@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    ;
+    box-sizing: border-box;
+}
+
+/* ul,
+ol {
+    list-style: none;
+} */
+
+img {
+    max-width: 50%
+}
+
+a {
+    color: darkred;
+}
+
+/* Header */
+header {
+    color: whitesmoke;
+    background-color: rgb(47, 53, 107);
+    padding: 1rem;
+
+
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* caracteristicas lista de navegación */
+.nav-lista {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.nav-lista a {
+
+    color: whitesmoke;
+}
+
+/* caracteristicas responsive */
+
+/* @media(min-width: 768px) and (orientation: landscape) {}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+
+} */
+
+/* Titulos por pagina */
+.caja {
+    background-color: darkolivegreen;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    /* min-width: 480px;
+    min-height: 30px; */
+    text-align: center;
+
+}
+
+/* NosotrosXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.section-nosotros {
+    padding: 1 rem;
+
+}
+
+.section-nosotros {
+    /* text-align: center; */
+    font-size: 2rem;
+}
+
+.introduccion {
+    padding: 0.5rem 0;
+}
+
+.introduccion {
+    margin-bottom: 0.5 rem;
+}
+
+.contenido-tarjeta-nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tarjeta-nosotros {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+
+.tarjeta-icono-nos {
+    grid-row: span 2;
+    background-color: lightgreen;
+    width: 50%;
+    height: 50%;
+    border-radius: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.tarjeta-icono-nos {
+    color: darkgreen;
+    font-size: 250%;
+}
+
+.estilo-lista {
+    list-style: square;
+}
+
+/* ==== Productos Index ==== */
+
+.bg-color-grey {
+    background-color: rgb(199, 207, 223);
+}
+
+/* Tarjetas */
+.productos-index {
+
+    padding: 1rem;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50%;
+}
+
+/* agregar font size para pages 1, 2, 3 y 4 */
+
+.tarjeta1 {
+    border: 2px solid rgb(24, 29, 29);
+    padding: 0.5rem 0;
+    border-radius: 25% 10%;
+
+    margin: 2rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tarjeta1 img {
+    flex-grow: 1;
+    align-items: center;
+}
+
+/* boton tarjeta */
+.boton {
+    border: 2px;
+    color: darkblue;
+    background-color: blue;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    font-size: 1. 1rem;
+    border-radius: 1rem;
+}
+.btn {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+/* @media (min-width: 768px) and (orientation: landscape) {}
+
+.tarjeta1 display: grid;
+grid-template-columns: 1
+}
+
+
+.tarjeta display: block;
+
+    {}
+} */
+
+/* pages */
+.Info_pages {
+    flex-grow: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+
+}
+
+.Cuerpo_pages {
+    margin: 5%;
+    flex-grow: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+}
+
+.Info-contacto {
+    background-color: lightgreen;
+    flex-grow: 1;
+    margin: auto;
+    border: 2px;
+    justify-content: space-between;
+}
+
+/* Redes sociales */
+.Redes-Sociales {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 5px;
+    margin: 5px;
+}
+
+.Redes-Sociales {
+    color: darkgreen;
+}
+
+.grilla {
+
+    display: grid;
+    border: darkgreen 2px;
+
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 4fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 5px;
+    column-gap: 5px;
+
+}
+
+.imagen-redes {
+    justify-items: center;
+    grid-column: span 3;
+}
+
+/* Ajuste responsive */
+@media (min-width: 768px) and (orientation: landscape) {}
+
+footer {
+    grid-column: span 3;
+    grid-column: center;
+}
+

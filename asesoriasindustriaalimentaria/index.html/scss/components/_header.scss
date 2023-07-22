@@ -1,0 +1,15 @@
+header {
+    color: whitesmoke;
+    background-color: rgb(47, 53, 107);
+    padding: 1rem;
+
+    .nav-lista {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+
+        a {
+            color: whitesmoke;
+        }
+    }
+}
